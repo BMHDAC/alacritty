@@ -33,7 +33,7 @@ white = "#e5e9f0"
 yellow = "#ebcb8b"
 
 [colors.primary]
-background = "#2e3440"
+background = "#101115"
 dim_foreground = "#a5abb6"
 foreground = "#d8dee9"
 
@@ -42,7 +42,7 @@ background = "#88c0d0"
 foreground = "CellBackground"
 
 [colors.selection]
-background = "#4c566a"
+background = "#212B48"
 text = "CellForeground"
 
 [colors.vi_mode_cursor]

@@ -1,15 +1,18 @@
 import= ["~/.config/alacritty/color.toml"]
+[shell]
+program = "tmux"
+args = ["new","-At","dacbui308"]
 [window]
 decorations = "None"
-opacity = 0.8
+opacity = 0.97
 startup_mode = "Fullscreen"
 resize_increments = true 
 blur = true
 [font]
-normal = {family ="Hack Nerd Font"}
-bold = {family ="Hack Nerd Font"}
-italic = {family ="Hack Nerd Font"}
-bold_italic = {family ="Hack Nerd Font"}
+normal = {family ="RecMonoSmCasual Nerd Font Mono"}
+bold = {family ="RecMonoSmCasual Nerd Font Mono"}
+italic = {family ="RecMonoSmCasual Nerd Font Mono"}
+bold_italic = {family ="RecMonoSmCasual Nerd Font Mono"}
 size = 16
 [env]
 TERM = "xterm-256color"

@@ -1,76 +1,40 @@
-# Dracula theme for Alacritty
-# https://draculatheme.com/alacritty
-#
-# Color palette
-# https://spec.draculatheme.com
-#
-# Instructions
-# https://github.com/alacritty/alacritty/blob/master/extra/man/alacritty.5.scd
+# Base16 Humanoid dark - alacritty color config
+# Thomas (tasmo) Friese
 
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
 [colors.primary]
+background = '0x000001'
+foreground = '0xf8f8f2'
 
-background = "#282a36"
-foreground = "#f8f8f2"
-bright_foreground = "#ffffff"
-
+# Colors the cursor will use if `custom_cursor_colors` is true
 [colors.cursor]
+text = '0x232629'
+cursor = '0xf8f8f2'
 
-text = "#282a36"
-cursor = "#f8f8f2"
-
-[colors.vi_mode_cursor]
-
-text = "CellBackground"
-cursor = "CellForeground"
-
-[colors.selection]
-
-text = "CellForeground"
-background = "#44475a"
-
+# Normal colors
 [colors.normal]
+black = '0x232629'
+red = '0xf11235'
+green = '0x02d849'
+yellow = '0xffb627'
+blue = '0x00a6fb'
+magenta = '0xf15ee3'
+cyan = '0x0dd9d6'
+white = '0xf8f8f2'
 
-black = "#21222c"
-red = "#ff5555"
-green = "#50fa7b"
-yellow = "#f1fa8c"
-blue = "#bd93f9"
-magenta = "#ff79c6"
-cyan = "#8be9fd"
-white = "#f8f8f2"
-
+# Bright colors
 [colors.bright]
-
-black = "#6272a4"
-red = "#ff6e6e"
-green = "#69ff94"
-yellow = "#ffffa5"
-blue = "#d6acff"
-magenta = "#ff92df"
-cyan = "#a4ffff"
-white = "#ffffff"
-
-[colors.search.matches]
-
-foreground = "#44475a"
-background = "#50fa7b"
-
-[colors.search.focused_match]
-
-foreground = "#44475a"
-background = "#ffb86c"
-
-[colors.footer_bar]
-
-background = "#282a36"
-foreground = "#f8f8f2"
-
-[colors.hints.start]
-
-foreground = "#282a36"
-background = "#f1fa8c"
-
-[colors.hints.end]
-
-foreground = "#f1fa8c"
-background = "#282a36"
+black = '0x60615d'
+red = '0xff9505'
+green = '0x333b3d'
+yellow = '0x484e54'
+blue = '0xc0c0bd'
+magenta = '0xfcfcf6'
+cyan = '0xb27701'
+white = '0xfcfcfc'
+[colors.selection]
+background = "0x2d4f67"
+foreground = "0xc8c093"

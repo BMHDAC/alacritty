@@ -1,7 +1,4 @@
 import= ["~/.config/alacritty/color.toml"]
-[shell]
-program = "tmux"
-args = ["new","-At","dacbui308"]
 [window]
 decorations = "None"
 opacity = 0.8
@@ -13,7 +10,7 @@ normal = {family ="MapleMono NF"}
 bold = {family ="MapleMono NF"}
 italic = {family ="MapleMono NF"}
 bold_italic = {family ="MapleMono NF"}
-size = 20.1
+size = 20
 [mouse]
 hide_when_typing = true
 [env]

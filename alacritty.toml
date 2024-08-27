@@ -1,15 +1,15 @@
 import= ["~/.config/alacritty/color.toml"]
 [window]
 decorations = "None"
-opacity = 1
+opacity = 0.8
 startup_mode = "Maximized"
 resize_increments = true 
 blur = true
 [font]
-normal = {family ="JetBrains Mono"}
-bold = {family ="JetBrains Mono"}
-italic = {family ="JetBrains Mono"}
-bold_italic = {family ="JetBrains Mono"}
+normal = {family ="MapleMono NF"}
+bold = {family ="MapleMono NF"}
+italic = {family ="MapleMono NF"}
+bold_italic = {family ="MapleMono NF"}
 size = 20
 [mouse]
 hide_when_typing = true

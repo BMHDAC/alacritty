@@ -6,11 +6,11 @@ startup_mode = "Maximized"
 resize_increments = true 
 blur = true
 [font]
-normal = {family ="MapleMono NF"}
-bold = {family ="MapleMono NF"}
-italic = {family ="MapleMono NF"}
-bold_italic = {family ="MapleMono NF"}
-size = 20
+normal = {family ="Cousine Nerd Font Mono"}
+bold = {family ="Cousine Nerd Font Mono"}
+italic = {family ="Cousine Nerd Font Mono"}
+bold_italic = {family ="Cousine Nerd Font Mono"}
+size = 14
 [mouse]
 hide_when_typing = true
 [env]
